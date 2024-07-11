@@ -232,6 +232,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=
 
 # Train model
 
+# Predict
 
 # Save the model
 dump(model, 'models/model.joblib')
